@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background: rgb(196, 164, 132);
+    color: white;
+}
+
+
+
+/*header*/
+header{
+    position:sticky;
+    top: 0;
+    left: 0;
+}
+
+#fixed{
+    background-color: rgba(255, 192, 203, 0.5);
+    color: white;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+}
+
+#fixed {
+    z-index: 900;
+}
+
+.brand{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    align-self: center;
+}
+
+.menu{
+    align-items: center;
+    width: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 0px 16px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: color;
+}
+
+header .menu a:hover {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 8px 16px;
+    margin: 0px;
+}
+
+.btn {
+    color: #000;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+} 
+
+
+
+
+
+/*section*/
+section{
+    padding-bottom: 10%;
+}
+
+#circular{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cirular_item{
+    width: 50%;
+    padding: 30px;
+}
+
+#circular_img{
+    border-radius: 50%;
+    border: solid rgb(64, 54, 43) 4px;
+}
+
+#circular_text{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#circular_text h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: rgb(64, 54, 43);
+}
+
+#circular_text p{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+
+#rectangle{
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-around;
+}
+
+.images{
+    background-color: rgb(116, 96, 76);
+    padding:10px;
+    text-align: center;
+}
+
+.images h1{
+    padding: 20px;
+}
+
+
+
+
+/*footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#footer_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer_box a{
+    color: white;
+}
+
+.footer_cols ul{
+    list-style: none;
+}
+
+#first_col{
+    width: 40%;
+}
+
+#second_col{
+    width: fit-content;
+}
+
+#third_col{
+    width: fit-content;
+}
+
+.cols{
+    padding: 10px;
+    line-height: 1.6;
+}
+
+#copyrights{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}

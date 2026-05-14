@@ -1,0 +1,57 @@
+/* Custom Styles for the Sign-Up Page */
+
+/* Custom Styles for the Sign-Up Page */
+
+body {
+  /* background: linear-gradient(135deg, #cb11ac 0%, lightpink 100%), url(i.png); */
+  background: url(cn.png);
+  background-size: cover;
+
+  /* border-image-slice: fill; */
+  background-position: center;
+  /* background-color: pink; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Center the form */
+.signup-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20
+
+}
+/* Card styling */
+.form-card {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 15px;
+  max-width: 400px; /* Reduced size */
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #212529;
+  color: white;
+  padding: 15px 0;
+}
+
+.footer a {
+  color: #0d6efd;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
